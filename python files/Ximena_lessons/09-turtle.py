@@ -1,0 +1,19 @@
+import turtle
+
+window = turtle.Screen()
+
+avery = turtle.Pen()
+kate = turtle.Pen()
+jacob = turtle.Pen()
+
+avery.forward(50)
+avery.right(90)
+avery.forward(20)
+
+kate.left(90)
+kate.forward(100)
+
+jacob.left(180)
+jacob.forward(80)
+
+window.exitonclick()
